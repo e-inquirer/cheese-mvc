@@ -14,6 +14,6 @@ public class CheeseController {
     // Request path: /cheese
     @RequestMapping(value = "")
     public String index() {
-        return "index";
+        return "cheese/index";
     }
 }
